@@ -9,7 +9,7 @@ lst_100000=[61502, 24090, 14006, 75201, 4717, 74322, 90431, 96774, 33710, 63626,
 
 lst=lst_100000
 Start = time.time()
-Sort.merge_sort(lst)
+Sort.bubble_sort(lst)
 Finish = time.time()
 Res_msec = (Finish-Start)*1000
 
